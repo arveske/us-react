@@ -103,6 +103,7 @@ const ExpenseForm = (props) => {
       </div>
       <div className="new-expense__actions">
         <button
+          type="button"
           onClick={() => {
             setIsFormOpened(false);
             clearFormInputs();
