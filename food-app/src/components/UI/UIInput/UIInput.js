@@ -5,7 +5,6 @@ const UIInput = React.forwardRef(({ label, input, input: { id } }, ref) => {
 
     useImperativeHandle(ref, () => ({
         getValue: () => {
-            console.log(inputRef)
             return inputRef.current.value
         }
     })
